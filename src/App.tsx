@@ -71,7 +71,7 @@ const RenderDeviceContainers = () => {
     );
 };
 
-export const App = () => {
+export default const App = () => {
     useSetMobileDevice();
     const lang = useSelector(selectCurrentLanguage);
     const isMobileDevice = useSelector(selectMobileDeviceState);
